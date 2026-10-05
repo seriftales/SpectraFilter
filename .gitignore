@@ -1,0 +1,22 @@
+# Python Çalışma Zamanı Önbellekleri
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal Ortamlar
+venv/
+env/
+.venv/
+
+# Uygulama Logları
+logs/
+*.log
+
+# Geliştirme Ortamı ve IDE Dosyaları
+.idea/
+.vscode/
+
+# İşletim Sistemi Kalıntıları
+.DS_Store
+Thumbs.db
