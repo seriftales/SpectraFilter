@@ -4,13 +4,13 @@ SpectraFilter, OpenCV ve HSV renk uzayını kullanarak girdi olarak verilen stat
 
 Proje, renk tespitlerini tek bir ekranda göstermek yerine her bir renk kanalını kendi izole penceresinde filtreleyerek detaylı bir spektrum analizi sunar.
 
-## 🚀 Özellikler
+##  Özellikler
 
 * **Çoklu Spektrum Ayrıştırma:** Görüntüyü renk kanallarına böler ve her bir rengi ayrı bir filtre penceresinde gösterir 
 * **Dinamik Konfigürasyon:** Renk algılama sınırları koda gömülmek yerine `config.toml` dosyasından okunur.
 * **Merkezi Loglama:** Eksik veri, hatalı dosya yolu veya bozuk donanım durumunda sistem sessizce çökmek yerine `loguru` üzerinden hatayı detaylandırarak güvenli çıkış yapar.
 
-## 🛠️ Kurulum (Ubuntu / Linux)
+##  Kurulum (Ubuntu / Linux)
 
 Sistem bağımlılıklarının çakışmaması için projenin izole bir Python sanal ortamında (venv) çalıştırılması önerilir.
 
@@ -30,7 +30,7 @@ Sistem bağımlılıklarının çakışmaması için projenin izole bir Python s
     pip install -r requirements.txt
    ```
 
-## ⚙️ Çalıştırma 
+##  Çalıştırma 
 
 İşlemek istediğiniz görüntüleri projenin kök dizinindeki data/ klasörü içerisine yerleştirin.
 
@@ -43,7 +43,7 @@ Uygulama, belirtilen görüntüyü okur ve tespit edilen renkleri ayrı pencerel
 
 Görüntü işleme tamamlandığında uygulamadan çıkmak için aktif pencere üzerindeyken klavyeden herhangi bir tuşa basmanız yeterlidir.
 
-## 📁 Dizin Yapısı
+##  Dizin Yapısı
 
 ```text 
 SpectraFilter/
